@@ -108,7 +108,6 @@ const courseAddForm = ({ showModal, setShowModal, getAllCourses }) => {
                 name="courseName"
                 required
                 value={formData.courseName}
-                placeholder="paste image url"
                 onChange={handleChange}
               />
             </Form.Group>
