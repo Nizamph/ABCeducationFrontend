@@ -1,0 +1,64 @@
+/* auth.module.css */
+.body {
+  margin: 0;
+}
+
+.loginContainer {
+  background-color: #ffffff;
+  padding: 10px;
+  font-size: medium;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 370px;
+  margin-top: 50px;
+  text-align: center;
+}
+.loginContainer > h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  padding: 8px;
+}
+.loginContainer > form > label {
+  font-family: cursive;
+  color: black;
+}
+.loginPage {
+  height: 100vh;
+  background-color: rgb(14, 14, 30);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.selectField {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
+.submitButton {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signupLink {
+  margin-top: 10px;
+}
