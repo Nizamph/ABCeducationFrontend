@@ -1,4 +1,4 @@
-const DEFUALT_URI = "http://localhost:4000/";
+const DEFUALT_URI = "https://abceducationbackend.onrender.com/";
 
 export const REGISTER = `${DEFUALT_URI}api/auth/register`;
 export const LOGIN = `${DEFUALT_URI}api/auth/login`;
