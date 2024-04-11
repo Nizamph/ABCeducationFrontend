@@ -29,7 +29,7 @@ function Header() {
                 Logout
               </Button>
             ) : (
-              <Button variant="light" onClick={() => navigate("/SignIn")}>
+              <Button variant="light" onClick={() => navigate("/")}>
                 Login
               </Button>
             )}

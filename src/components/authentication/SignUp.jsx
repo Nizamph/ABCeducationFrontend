@@ -44,6 +44,7 @@ const Signup = () => {
       console.log("data from the backend", data);
       if (data.errorMessage) {
         toast.error(data.errorMessage);
+        alert(data.errorMessage);
       }
       if (data.role === "User") {
         toast.success(" user registration Success");
@@ -51,7 +52,6 @@ const Signup = () => {
       } else if (data.role === "Admin") {
         toast.success(" Admin registration  Success");
         navigate("/");
-        alert("Admin registration Success");
       }
       if (data.role) {
         toast.success(`Registration success for the ${data.role}`);
@@ -60,8 +60,10 @@ const Signup = () => {
       console.log("error", err);
       if (err.errorMessage) {
         toast.error(err.errorMessage);
+        alert(err.errorMessage);
       } else {
         toast.error("Something went wrong");
+        alert("something went wrong");
       }
       setIsLoading(false);
     }
